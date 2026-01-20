@@ -1,0 +1,15 @@
+C:\projetos\UdemyTeste\bin\Debug\net9.0\UdemyTeste.exe
+C:\projetos\UdemyTeste\bin\Debug\net9.0\UdemyTeste.deps.json
+C:\projetos\UdemyTeste\bin\Debug\net9.0\UdemyTeste.runtimeconfig.json
+C:\projetos\UdemyTeste\bin\Debug\net9.0\UdemyTeste.dll
+C:\projetos\UdemyTeste\bin\Debug\net9.0\UdemyTeste.pdb
+C:\projetos\UdemyTeste\obj\Debug\net9.0\UdemyTeste.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\UdemyTeste\obj\Debug\net9.0\UdemyTeste.AssemblyInfoInputs.cache
+C:\projetos\UdemyTeste\obj\Debug\net9.0\UdemyTeste.AssemblyInfo.cs
+C:\projetos\UdemyTeste\obj\Debug\net9.0\UdemyTeste.csproj.CoreCompileInputs.cache
+C:\projetos\UdemyTeste\obj\Debug\net9.0\UdemyTeste.dll
+C:\projetos\UdemyTeste\obj\Debug\net9.0\refint\UdemyTeste.dll
+C:\projetos\UdemyTeste\obj\Debug\net9.0\UdemyTeste.pdb
+C:\projetos\UdemyTeste\obj\Debug\net9.0\UdemyTeste.genruntimeconfig.cache
+C:\projetos\UdemyTeste\obj\Debug\net9.0\ref\UdemyTeste.dll
+C:\projetos\UdemyTeste\obj\Debug\net9.0\UdemyTeste.sourcelink.json
