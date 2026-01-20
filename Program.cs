@@ -1,12 +1,14 @@
 ﻿using System; 
 using System.Globalization;
 using System.Diagnostics;
+using System.Linq;
+using System.Collections.Generic;
 
 class URI {
 
     static void Main(string[] args) { 
         URI obj = new URI();
-        obj.SampleMethod1059();
+        obj.SampleMethod1042();
 
     }
 
@@ -125,4 +127,27 @@ class URI {
             Console.WriteLine(i);
         }
     }
+
+    public void SampleMethod1042()
+    {
+       int A, B, C;
+       string[] entrada = Console.ReadLine().Split(' ');
+       A = Convert.ToInt32(entrada[0]);
+       B = Convert.ToInt32(entrada[1]);
+       C = Convert.ToInt32(entrada[2]);
+
+       int[] lista = (int[])A, B, C.Clone();
+     
+
+        var listaOrdenada = lista.OrderBy(x => x).ToList(); 
+        Console.WriteLine(listaOrdenada[0]);
+        Console.WriteLine(listaOrdenada[1]);
+        Console.WriteLine(listaOrdenada[2]);
+        Console.WriteLine();
+        
+        Console.WriteLine(A);
+        Console.WriteLine(B);
+        Console.WriteLine(C);
+    }
+
 }
