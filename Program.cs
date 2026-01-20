@@ -6,7 +6,7 @@ class URI {
 
     static void Main(string[] args) { 
         URI obj = new URI();
-        obj.SampleMethod1049();
+        obj.SampleMethod1059();
 
     }
 
@@ -116,5 +116,13 @@ class URI {
                 }
             }
         }       
+    }
+
+    public void SampleMethod1059()
+    {
+        for (int i = 2; i <= 100; i += 2)
+        {
+            Console.WriteLine(i);
+        }
     }
 }
