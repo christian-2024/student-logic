@@ -6,7 +6,7 @@ class URI {
 
     static void Main(string[] args) { 
         URI obj = new URI();
-        obj.SampleMethod1047();
+        obj.SampleMethod1049();
 
     }
 
@@ -58,4 +58,63 @@ class URI {
         Console.WriteLine("O JOGO DUROU " + duracaoHoras + " HORA(S) E " + duracaoMinutos + " MINUTO(S)");
     }
 
+    public void SampleMethod1049()
+    {
+       string nivel1, nivel2, nivel3;
+
+        nivel1 = Console.ReadLine();
+        nivel2 = Console.ReadLine();
+        nivel3 = Console.ReadLine();
+
+       if (nivel1 == "vertebrado")
+        {
+            if (nivel2 == "ave")
+            {
+                if (nivel3 == "carnivoro")
+                {
+                    Console.WriteLine("aguia");
+                } 
+                if (nivel3 == "onivoro")
+                {
+                    Console.WriteLine("pomba");
+                }
+            }
+            if (nivel2 == "mamifero")
+            {
+                if (nivel3 == "onivoro")
+                {
+                    Console.WriteLine("homem");
+                }
+                if (nivel3 == "herbivoro")
+                {
+                    Console.WriteLine("vaca");
+                }
+            }
+        }
+        if (nivel1 == "invertebrado")
+        {
+            if (nivel2 == "inseto")
+            {
+                if (nivel3 == "hematofago")
+                {
+                    Console.WriteLine("pulga");
+                }
+                if (nivel3 == "herbivoro")
+                {
+                    Console.WriteLine("lagarta");
+                }
+            }
+            if (nivel2 == "anelideo")
+            {
+                if (nivel3 == "hematofago")
+                {
+                    Console.WriteLine("sanguessuga");
+                }
+                if (nivel3 == "onivoro")
+                {
+                    Console.WriteLine("minhoca");
+                }
+            }
+        }       
+    }
 }
